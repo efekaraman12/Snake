@@ -205,18 +205,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6555705130064888574}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &295579942 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 140890774121719075, guid: 7bf5dac0fd399144aa9af44e2c6c4bce,
-    type: 3}
-  m_PrefabInstance: {fileID: 6555705130064888574}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!850595691 &451509112
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1106,7 +1094,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   segmentPrefab: {fileID: 4726879341727194397, guid: a20ea67b69b1572478630ab80ef547fd,
     type: 3}
-  scoreText: {fileID: 295579942}
   direction: {x: 1, y: 0}
   speed: 20
   speedMultiplier: 1
@@ -1344,7 +1331,7 @@ PrefabInstance:
     - target: {fileID: 8608729251649506055, guid: 7bf5dac0fd399144aa9af44e2c6c4bce,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 191
+      value: 166
       objectReference: {fileID: 0}
     - target: {fileID: 8608729251649506055, guid: 7bf5dac0fd399144aa9af44e2c6c4bce,
         type: 3}
