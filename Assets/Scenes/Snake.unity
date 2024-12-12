@@ -205,6 +205,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6555705130064888574}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &295579942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 140890774121719075, guid: 7bf5dac0fd399144aa9af44e2c6c4bce,
+    type: 3}
+  m_PrefabInstance: {fileID: 6555705130064888574}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &451509112
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1229,6 +1241,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1586446592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1586446594}
+  - component: {fileID: 1586446593}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1586446593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586446592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee1ceaa00c097a448368f023f21e9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 295579942}
+--- !u!4 &1586446594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586446592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0267396, y: 3.114626, z: 0.6288916}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2368008703245645986 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2368008703240698332, guid: 1972ae760b3201246bd505781c533b49,
@@ -1497,3 +1554,4 @@ SceneRoots:
   - {fileID: 5013886}
   - {fileID: 476918944}
   - {fileID: 1067949446}
+  - {fileID: 1586446594}

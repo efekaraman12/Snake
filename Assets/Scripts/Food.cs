@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class Food : MonoBehaviour
@@ -47,6 +48,9 @@ public class Food : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         RandomizePosition();
+
+        // Skoru artır
+        ScoreManager.Instance.AddScore(1);
     }
     
 
